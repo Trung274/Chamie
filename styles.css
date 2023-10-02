@@ -319,15 +319,19 @@ body {
 }
 
 .support {
-    width: 1280px;
+    width: 100%;
     height: 229px;
-    background: #A80000; /* You can customize the background color */
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+}
+
+.support-column {
+    padding: 10px;
 }
 
 .copyright {
-    width: 1280px;
+    width: 100%;
     height: 140px;
-    background: #A80000; /* You can customize the background color */
 }
 
 
