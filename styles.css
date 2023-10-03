@@ -248,26 +248,32 @@ body {
 
 .ava {
     margin-top: 0;
-    margin-right: 15px; /* Adjust the margin as needed */
+    margin-right: 15px;
+    /* Adjust the margin as needed */
 }
 
 .comment-details {
-    flex-grow: 1; /* Allow the details to expand and take available space */
+    flex-grow: 1;
+    /* Allow the details to expand and take available space */
 }
 
 .user-and-status {
-    display: flex; /* Display user and user-status elements in a row */
+    display: flex;
+    /* Display user and user-status elements in a row */
     align-items: center;
-    margin-bottom: 5px; /* Add spacing between user and user-status */
+    margin-bottom: 5px;
+    /* Add spacing between user and user-status */
 }
 
 .user {
-    margin-right: 10px; /* Add spacing between user and user-status if needed */
+    margin-right: 10px;
+    /* Add spacing between user and user-status if needed */
 }
 
 .rate,
 .comment-line {
-    display: block; /* Ensure each element is on a new line */
+    display: block;
+    /* Ensure each element is on a new line */
 }
 
 
@@ -310,7 +316,7 @@ body {
 /* FOOTER */
 
 .custom-footer {
-    width:100%;
+    width: 100%;
     height: 369px;
     flex-shrink: 0;
     background: #A80000;
@@ -327,11 +333,31 @@ body {
 
 .support-column {
     padding: 10px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.support-column ul {
+    list-style-type: none;
+}
+
+.support-column a {
+color: #fff;
 }
 
 .copyright {
     width: 100%;
     height: 140px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
-
+.copyright a {
+    color: #fff;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-wrap: break-word;
+}
+
+.reading-frame {
+    display: inline-flex;
+    padding: 58px 56px 0px 57px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
