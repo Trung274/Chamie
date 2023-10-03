@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    background: #F4F4F4;
+    ;
 }
 
 html,
@@ -10,11 +12,104 @@ body {
     overflow-wrap: break-word;
 }
 
-.reading-frame {
-    display: inline-flex;
-    padding: 58px 56px 0px 57px;
-    flex-direction: column;
-    justify-content: flex-end;
+.navbar {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-shrink: 0;
+    background-color: none;
+    color: white;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.page-num,
+.table {
+    flex: 1;
+    /* Equal width for "page-num" and "table" */
+}
+
+/* Style the "table" part as the widest */
+.table {
+    flex: 2;
+    position: relative;
+    /* Enable positioning for dropdown */
+}
+
+/* Style the links for better visibility */
+.navbar a {
+    color: #212121;
+    text-decoration: none;
+}
+
+/* Style the active link */
+.active {
+    font-weight: bold;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A80000;
+    min-width: 160px;
+    z-index: 1;
+    width: 120px;
+    height: 195px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 21px 21px;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    align-items: center;
+    text-align: center;
+    padding: 7.5px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+/* Show the dropdown content when hovering over the "table" part */
+.table:hover .dropdown-content {
+    display: block;
+}
+
+.reading-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 22px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #fff;
+    margin: 0;
+    color: #212121;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+p {
+    background-color: #fff;
+    text-align: left;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 10px;
+    color: #212121;
+text-align: justify;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
 }
