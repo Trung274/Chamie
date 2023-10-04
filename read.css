@@ -123,6 +123,10 @@ body {
     display: block;
 }
 
+.dropdown-container a:hover {
+    text-decoration: none;
+}
+
 .dropdown-content a {
     align-items: center;
     text-align: center;
