@@ -24,11 +24,6 @@ body {
     margin: 0 auto;
 }
 
-.page-num,
-.table {
-    flex: 1;
-}
-
 .return-link {
     text-decoration: none;
 }
@@ -48,101 +43,20 @@ body {
     cursor: pointer;
 }
 
-/* Style the "table" part as the widest */
-.table {
-    flex: 2;
-    position: relative;
-    /* Enable positioning for dropdown */
+.page {
+    color: #212121;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 /* Style the links for better visibility */
 .navbar a {
     color: #212121;
     text-decoration: none;
-}
-
-/* Style the active link */
-.active {
-    font-weight: bold;
-}
-
-.table-content {
-    color: #212121;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.dropdown-container {
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #A80000;
-    min-width: 160px;
-    z-index: 1;
-    width: 120px;
-    height: 195px;
-    flex-shrink: 0;
-    border-radius: 0px 0px 21px 21px;
-}
-
-/* Style the dropdown links */
-.dropdown-content a {
-    align-items: center;
-    text-align: center;
-    padding: 7.5px;
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-
-/* Show the dropdown content when hovering over the "table" part */
-.dropdown-content {
-    display: block;
-    display: none;
-    position: absolute;
-    background-color: #A80000;
-    min-width: 160px;
-    z-index: 1;
-    width: 120px;
-    height: 195px;
-    flex-shrink: 0;
-    border-radius: 0px 0px 21px 21px;
-    top: 100%; /* Position the dropdown below the container */
-    left: 0;/* Align the dropdown with the left edge of the container */
-}
-
-.dropdown-container:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-container a:hover {
-    text-decoration: none;
-}
-
-.dropdown-content a {
-    align-items: center;
-    text-align: center;
-    padding: 7.5px;
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-
-.dropdown-content a {
-    align-items: center;
-    text-align: center;
-    padding: 7.5px;
-    text-decoration: none;
-    display: block;
-    color: white;
 }
 
 .items a {
@@ -178,7 +92,7 @@ body {
     margin-bottom: 20px;
     color: #212121;
     font-size: 28px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     line-height: normal;
 }
