@@ -14,7 +14,7 @@ body {
 
 .navbar {
     width: 100%;
-    height: 130px;
+    height: 90px;
     display: flex;
     flex-shrink: 0;
     background-color: none;
@@ -27,7 +27,25 @@ body {
 .page-num,
 .table {
     flex: 1;
-    /* Equal width for "page-num" and "table" */
+}
+
+.return-link {
+    text-decoration: none;
+}
+
+.return-link:hover {
+    text-decoration: none;
+}
+
+.chevron-link {
+    color: #a80000;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.chevron-link:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Style the "table" part as the widest */
@@ -86,6 +104,8 @@ body {
     display: block;
 }
 
+/* READING FRAME */
+
 .reading-frame {
     display: flex;
     flex-direction: column;
@@ -102,7 +122,8 @@ body {
 
 .custom-h1 {
     background-color: #fff;
-    margin: 0;
+    margin-top: 50PX;
+    margin-bottom: 20px;
     color: #212121;
     font-size: 28px;
     font-style: normal;
