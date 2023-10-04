@@ -130,6 +130,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .button-text {
@@ -150,12 +151,40 @@ body {
 }
 
 .title {
-    color: #A80000;
+    color: #A90000;
     font-family: Inter;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.info {
+    color: #727272;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-text {
+    color: #727272;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-desc {
+    color: #727272;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .content-box2>div:nth-child(2),
@@ -199,6 +228,10 @@ body {
     padding: 10px;
 }
 
+.comment-area {
+    flex-direction: column;
+}
+
 .comment-input textarea {
     width: 100%;
     border: none;
@@ -221,6 +254,10 @@ body {
     justify-content: center;
 }
 
+.star {
+    margin-top: 1px;
+}
+
 .small-bar {
     margin-top: 20px;
 }
@@ -239,6 +276,7 @@ body {
     align-items: center;
     height: 100px;
     flex-shrink: 0;
+    margin-top: 10px;
 }
 
 .comment-1 {
@@ -249,33 +287,54 @@ body {
 .ava {
     margin-top: 0;
     margin-right: 15px;
-    /* Adjust the margin as needed */
 }
 
 .comment-details {
     flex-grow: 1;
-    /* Allow the details to expand and take available space */
 }
 
 .user-and-status {
     display: flex;
-    /* Display user and user-status elements in a row */
     align-items: center;
     margin-bottom: 5px;
-    /* Add spacing between user and user-status */
+    color: #969696;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .user {
     margin-right: 10px;
-    /* Add spacing between user and user-status if needed */
+    color: #212121;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .rate,
 .comment-line {
     display: block;
-    /* Ensure each element is on a new line */
+    color: #727272;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.more-comments {
+    color: #727272;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+margin-top: 16px;   
+}
 
 /* CÓ THỂ BẠN THÍCH */
 .title1 {
@@ -340,8 +399,9 @@ body {
 .support-column {
     padding: 10px;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: #fff;
+    margin: auto;
 }
 
 .support-column ul {
@@ -349,7 +409,7 @@ body {
 }
 
 .support-column a {
-color: #fff;
+    color: #fff;
 }
 
 .copyright {
