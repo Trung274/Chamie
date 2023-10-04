@@ -295,6 +295,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .book-author {
@@ -303,6 +304,11 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 5px;
+}
+
+.star-rating {
+    margin-top: 10px;
 }
 
 .shelf {
